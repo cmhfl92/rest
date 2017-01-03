@@ -1,11 +1,26 @@
 import React, { Component } from 'react'
 
+import { Router, Route, browserHistory } from 'react-router'
+
+import Layout from './Layout'
+import Enter from './Enter'
+import Menu from './Menu'
+import Home from './Home'
+import Contacts from './Contacts'
+import Locations from './Locations'
+
 class App extends Component {
 
   render () {
-    return <div>
-      <h1>Hello, World!</h1>
-    </div>
+    return <Router history={browserHistory}>
+      <Route component={Layout}>
+        <Route path='/enter' component={Enter} />
+        <Route path='/' component={Home} />
+        <Route path='/menu' component={Menu} />
+        <Route path='/contacts' component={Contacts} />
+        <Route path='/locations' component={Locations} />
+      </Route>
+    </Router>
   }
 }
 
