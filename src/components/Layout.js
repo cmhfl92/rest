@@ -11,7 +11,7 @@ class Layout extends Component {
     return <div>
       <h1>hRana</h1>
       <nav>
-        <ul className='bar'>
+        <ul>
           <li>
             <Link to='/'>Home</Link>
           </li>

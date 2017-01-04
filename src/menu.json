@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "name": "Appetizers",
+      "items": [
+        {
+          "name": "Spring Rolls",
+          "description": "Yummy",
+          "price": 450
+        },
+        {
+          "name": "Potato Skins",
+          "description": "More of that ranch sour creme",
+          "price": 720
+        },
+        {
+          "name": "Monster Nachos",
+          "description": "monsters inside the cheese sauce that eat your face",
+          "price": 369
+        }
+      ]
+    },
+    {
+      "name": "Entrees",
+      "items": [
+        {
+          "name": "Buffalo Wings",
+          "description": "Yeah, these are the bomb diggity",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Deep Fried Chocolate",
+          "description": "Blame your gut",
+          "price": 450
+        },
+        {
+          "name": "KeyLime Tart",
+          "description": "Sour to the taste",
+          "price": 730
+        },
+        {
+          "name": "Poptart",
+          "description": "Old and moldy 90's breakfast",
+          "price": 1000
+        }
+      ]
+    }
+  ]
+}
