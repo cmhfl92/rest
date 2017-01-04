@@ -13,6 +13,9 @@ class Layout extends Component {
       <nav>
         <ul>
           <li>
+            <Link to='/enter'>Enter</Link>
+          </li>
+          <li>
             <Link to='/'>Home</Link>
           </li>
           <li>

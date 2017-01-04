@@ -6,12 +6,14 @@ import Home from './Home'
 import Menu from './Menu'
 import Contacts from './Contacts'
 import Locations from './Locations'
+import Enter from './Enter'
 
 class App extends Component {
 
   render () {
     return <Router history={browserHistory}>
       <Route component={Layout}>
+        <Route path='/enter' component={Enter} />
         <Route path='/' component={Home} />
         <Route path='/menu' component={Menu} />
         <Route path='/contacts' component={Contacts} />

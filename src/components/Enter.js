@@ -8,3 +8,5 @@ class Enter extends Component {
     </div>
   }
 }
+
+export default Enter
