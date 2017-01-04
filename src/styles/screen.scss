@@ -12,13 +12,3 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
 }
-
-ul {
-  .bar {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: solid thin black;
-    background-color: tan;
-  }
-}
