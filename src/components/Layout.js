@@ -9,15 +9,13 @@ class Layout extends Component {
 
   render () {
     return <div className='layout'>
-      <div>
-        <img src='https://github.com/cmhfl92/rest/blob/master/Logomakr_6kym2R.png?raw=true' width='200' />
-      </div>
+
       {/* <h1>Burton's Bar</h1> */}
       <nav>
         <ul>
-          <li>
+          {/* <li>
             <Link to='/enter'>Enter</Link>
-          </li>
+          </li> */}
           <li>
             <Link to='/'>Home</Link>
           </li>
@@ -25,13 +23,16 @@ class Layout extends Component {
             <Link to='/menu'>Menu</Link>
           </li>
           <li>
-            <Link to='/contacts'>Contact Us</Link>
+            <Link to='/contacts'>Contact</Link>
           </li>
           <li>
             <Link to='/Locations'>Locations</Link>
           </li>
         </ul>
       </nav>
+      <div>
+        <img className='logo' src='https://github.com/cmhfl92/rest/blob/master/Burtons%20bar.png?raw=true' />
+      </div>
       <main>
         {this.props.children}
       </main>

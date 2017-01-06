@@ -10,8 +10,14 @@ body,
   align-items: center;
 }
 
-h1 {
-  color: purple;
+.logo {
+  padding-top: 2em;
+  padding-left: 3em;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
@@ -24,13 +30,24 @@ main {
 }
 
 nav ul {
-  padding-left: 0;
+  padding-left: 40%;
+  padding-right: 40%;
   display: flex;
-  list-style: none;
+  font-size: 12px;
+  background-color: black;
+  background-position: top;
+  margin-bottom: 4em;
+  margin-top: -1em;
 }
 
 li {
   margin: 1em;
+}
+
+a {
+  color: white;
+  font-family: inherit;
+  text-decoration: none;
 }
 
 footer {
