@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
-import MenuSection from './MenuSection'
-import menuItems from '../menu.json'
+// import MenuSection from './MenuSection'
+import { Link } from 'react-router'
+import data from '../data.json'
 
 class Menu extends Component {
 
   render () {
-    const categories = menuItems.categories.map((category, i) => {
-      return <li key={i}>{category.name}</li>
-    })
-
-    const sections = menuItems.categories.map((category, i) => {
-      return <MenuSection name={category.name} items={category.items} key={i} />
+    const categories = data.menu.map((category, i) => {
+      return <li key={i}>
+        <Link to={`/menu/${category.slug}`} activeClassName='active'>
+          {category.name}
+        </Link>
+      </li>
     })
 
     return <div>
@@ -21,10 +22,7 @@ class Menu extends Component {
           {categories}
         </ul>
       </section>
-
-      <section>
-        {sections}
-      </section>
+      {this.props.children}
     </div>
   }
 }

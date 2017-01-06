@@ -8,8 +8,8 @@ class Layout extends Component {
   }
 
   render () {
-    return <div>
-      <h1>hRana</h1>
+    return <div className='layouts'>
+      <h1>Burton's Bar</h1>
       <nav>
         <ul>
           <li>
@@ -33,7 +33,7 @@ class Layout extends Component {
         {this.props.children}
       </main>
       <footer>
-        <p>&copy; 2017 The hRana. Built with &hearts; at the Christa Yard, St. Petersburg, Florida.</p>
+        <p>&copy; 2017 Burton's Bar. Built with &hearts; at the Christa Yard, St. Petersburg, Florida.</p>
       </footer>
     </div>
   }

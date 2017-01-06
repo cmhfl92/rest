@@ -1,7 +1,33 @@
 {
-  "categories": [
+  "locations" : [
+    {
+      "slug": "st-pete",
+      "name": "Downtown St.Petersburg",
+      "address": "260 1st avenue north S, St. Petersburg, FL 33701",
+      "hours": [
+        { "days": "M-F", "hours": "11am-9pm" },
+        { "days": "Sat", "hours": "11am-12am" },
+        { "days": "Sun", "hours": "Closed" }
+      ],
+      "mapPlaceID": "ChIJ2ckQoZzhwogR_sFtWCqwpWs"
+    },
+    {
+      "slug": "bradenton",
+      "name": "Bradenton",
+      "address": "Across the street from Ellenton Outlets",
+      "hours": [
+        { "days": "Mon", "hours": "closed" },
+        { "days": "Tue-Fri", "hours": "11am-7pm" },
+        { "days": "Sat", "hours": "11am-12am" },
+        { "days": "Sun", "hours": "9am-2pm" }
+      ],
+      "mapPlaceID": "ChIJDWEZ1zX8VDARDHDTZoyjHXI"
+    }
+  ],
+  "menu": [
     {
       "name": "Appetizers",
+      "slug": "apps",
       "items": [
         {
           "name": "Spring Rolls",
@@ -22,6 +48,7 @@
     },
     {
       "name": "Entrees",
+      "slug": "entrees",
       "items": [
         {
           "name": "Buffalo Wings",
@@ -32,6 +59,7 @@
     },
     {
       "name": "Desserts",
+      "slug": "desserts",
       "items": [
         {
           "name": "Deep Fried Chocolate",
