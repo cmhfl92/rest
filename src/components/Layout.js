@@ -8,8 +8,11 @@ class Layout extends Component {
   }
 
   render () {
-    return <div className='layouts'>
-      <h1>Burton's Bar</h1>
+    return <div className='layout'>
+      <div>
+        <img src='https://github.com/cmhfl92/rest/blob/master/Logomakr_6kym2R.png?raw=true' width='200' />
+      </div>
+      {/* <h1>Burton's Bar</h1> */}
       <nav>
         <ul>
           <li>

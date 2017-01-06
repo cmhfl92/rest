@@ -1,0 +1,44 @@
+body,
+#root,
+.layout {
+  min-height: 100vh;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: purple;
+}
+
+main {
+  max-width: 760px;
+  min-width: 320px;
+  width: 66vw;
+  margin: 1em auto;
+  padding: 1em;
+  flex: 1;
+}
+
+nav ul {
+  padding-left: 0;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 1em;
+}
+
+footer {
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+  }
+}

@@ -17,7 +17,7 @@ class Location extends Component {
       <p>{location.address}</p>
       <table>
         <tbody>
-          {location.hours.map((period, j) => {
+          {location.hours.map((period, i) => {
             return <tr key={i}>
               <th>{period.days}</th>
               <td>{period.hours}</td>
