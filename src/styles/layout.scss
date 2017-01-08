@@ -2,26 +2,22 @@ body,
 #root,
 .layout {
   min-height: 100vh;
-  background-image: url('http://4.bp.blogspot.com/-vBtBEMjDhZU/UfGcUEoBAJI/AAAAAAAAACw/eS8HGkyACX8/s1600/Macbeth-GS-4.jpg');
+  background-image: url('http://4.bp.blogspot.com/-aDYR_zBdOIc/UYm4fgpZKVI/AAAAAAAAA8k/9B90A-QEb3A/s1600/upload2.png');
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.layout {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.logo {
-  padding-top: 7em;
-  padding-left: 3em;
-  width: 425px;
-  height: 150px;
+  background-size: 600px 600px;
+  // background-size: contain;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  padding-top: 9em;
+  padding-left: 3em;
+  width: 425px;
+  height: 150px;
 }
 
 main {
@@ -37,19 +33,23 @@ nav.navbar {
   ul {
     padding-left: 200px;
     padding-right: 200px;
-    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
     font-size: 12px;
+    display: flex;
     background-color: black;
     background-position: top;
     margin-bottom: 4em;
     list-style: none;
     margin: -1em;
-    font-family: 'Gotham';
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   li {
     margin: 1em;
     margin-top: 2em;
+    justify-content: center;
   }
 
   a {
@@ -61,15 +61,26 @@ nav.navbar {
 
 .about {
   section {
-    font-family: 'Century Gothic';
-    padding-top: .05em;
-    text-align: left;
-    background-color: hsla(273, 100%, 43%, 0.72);
-    margin-top: 25%;
+    h2 {
+      margin: 40px 40px;
+      font-family: 'Josefin Sans', sans-serif;
+      padding-top: .05em;
+      text-align: left;
+      color: hsla(273, 100%, 43%, 1);
+      margin-top: 25%;
+      font-size: 50px;
+    }
+    p {
+      margin: 40px;
+      font-size: 12px;
+      font-stretch: expanded;
+      color: hsla(360, 0%, 7%, 0.97);
+      letter-spacing: 0.1em;
+    }
   }
 }
 
 footer {
-  font-family: 'Century Gothic';
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 12px;
 }

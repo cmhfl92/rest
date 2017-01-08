@@ -17,7 +17,7 @@ class Layout extends Component {
             <Link to='/enter'>Enter</Link>
           </li> */}
           <li>
-            <Link to='/'>Home</Link>
+            <Link to='/'>Our Story</Link>
           </li>
           <li>
             <Link to='/menu'>Menu</Link>
