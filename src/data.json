@@ -30,19 +30,19 @@
       "slug": "apps",
       "items": [
         {
-          "name": "Spring Rolls",
-          "description": "Yummy",
-          "price": 450
+          "name": "WINGS",
+          "description": "Nightmare. Hot Hot Hot. Hello Alice. Sweet Chipotle.",
+          "price": 1200
         },
         {
-          "name": "Potato Skins",
-          "description": "More of that ranch sour creme",
-          "price": 720
+          "name": "THE BEETLE BREAD",
+          "description": "tomato, malady roasted pepper, black olive, onion, sweet balsamic melted mozzarella.",
+          "price": 800
         },
         {
-          "name": "Monster Nachos",
-          "description": "monsters inside the cheese sauce that eat your face",
-          "price": 369
+          "name": "HEADLESS NACHOS",
+          "description": "crispy chips inside the cheese sauce coverd in sriracha",
+          "price": 700
         }
       ]
     },
@@ -51,30 +51,35 @@
       "slug": "entrees",
       "items": [
         {
-          "name": "Buffalo Wings",
-          "description": "Yeah, these are the bomb diggity",
-          "price": 50
+          "name": "SWEENEY BEEF",
+          "description": "Seared 8OZ Filet, seasoned sautéed mushrooms & onions, red wine reduction.",
+          "price": 3000
+        },
+        {
+          "name": "EDWARD BURGER HANDS",
+          "description": "1/2 pound all beef burger, smoked bacon, pepper jack, cheese, whole egg,avocado roasted pepper,tomato,topped with sriracha cream and served on a toasted bun brushed with honey butter and garlic.",
+          "price": 1800
         }
       ]
     },
     {
-      "name": "Desserts",
-      "slug": "desserts",
+      "name": "Cocktails",
+      "slug": "cocktails",
       "items": [
         {
-          "name": "Deep Fried Chocolate",
-          "description": "Blame your gut",
-          "price": 450
+          "name": "Edward's Lemonade",
+          "description": "Old fashioned with Orange bitters.",
+          "price": 1200
         },
         {
-          "name": "KeyLime Tart",
-          "description": "Sour to the taste",
-          "price": 730
+          "name": "The Beetles Juice",
+          "description": "Muddled blackberry and limes, Tequila, Blackberry schnapps, Angostura bitters, splash of cranberry.",
+          "price": 1400
         },
         {
-          "name": "Poptart",
-          "description": "Old and moldy 90's breakfast",
-          "price": 1000
+          "name": "Alice's Cup o' tea",
+          "description": "Peach vodka, Gin, rum, tequila, peach schnapps, sour mix, splash of coke.",
+          "price": 1400
         }
       ]
     }

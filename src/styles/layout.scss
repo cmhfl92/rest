@@ -2,6 +2,10 @@ body,
 #root,
 .layout {
   min-height: 100vh;
+  background-image: url('http://4.bp.blogspot.com/-vBtBEMjDhZU/UfGcUEoBAJI/AAAAAAAAACw/eS8HGkyACX8/s1600/Macbeth-GS-4.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .layout {
@@ -11,10 +15,10 @@ body,
 }
 
 .logo {
-  padding-top: 2em;
+  padding-top: 7em;
   padding-left: 3em;
-  width: 400px;
-  height: 100px;
+  width: 425px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,33 +33,43 @@ main {
   flex: 1;
 }
 
-nav ul {
-  padding-left: 40%;
-  padding-right: 40%;
-  display: flex;
-  font-size: 12px;
-  background-color: black;
-  background-position: top;
-  margin-bottom: 4em;
-  margin-top: -1em;
+nav.navbar {
+  ul {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    font-size: 12px;
+    background-color: black;
+    background-position: top;
+    margin-bottom: 4em;
+    list-style: none;
+    margin: -1em;
+    font-family: 'Gotham';
+  }
+
+  li {
+    margin: 1em;
+    margin-top: 2em;
+  }
+
+  a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
 }
 
-li {
-  margin: 1em;
-}
-
-a {
-  color: white;
-  font-family: inherit;
-  text-decoration: none;
+.about {
+  section {
+    font-family: 'Century Gothic';
+    padding-top: .05em;
+    text-align: left;
+    background-color: hsla(273, 100%, 43%, 0.72);
+    margin-top: 25%;
+  }
 }
 
 footer {
-  p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: fixed;
-  }
+  font-family: 'Century Gothic';
+  font-size: 12px;
 }

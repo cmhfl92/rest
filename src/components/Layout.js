@@ -11,7 +11,7 @@ class Layout extends Component {
     return <div className='layout'>
 
       {/* <h1>Burton's Bar</h1> */}
-      <nav>
+      <nav className='navbar'>
         <ul>
           {/* <li>
             <Link to='/enter'>Enter</Link>
