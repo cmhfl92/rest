@@ -1,9 +1,16 @@
+.title {
+  h2 {
+    color: red;
+  }
+}
+
 .categories {
   ul {
+    font-family: 'Josefin Sans', sans-serif;
     list-style: none;
     padding-left: 0;
     display: flex;
-    background-color: black;
+    background-color: #fff;
 
     li {
       flex: 1;
@@ -16,6 +23,25 @@
 
     &.active {
       font-weight: bold;
+      font-size: 20px;
     }
   }
 }
+
+tr {
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+
+  th {
+    padding: 5px;
+  }
+
+  td {
+    padding: 2px;
+  }
+}
+// tr:nth-child(even){background-color: purple}

@@ -16,7 +16,6 @@ class Menu extends Component {
 
     return <div>
       <h2>Our Menu</h2>
-
       <section className='categories'>
         <ul>
           {categories}
