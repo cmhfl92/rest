@@ -3,22 +3,71 @@ html {
   height: 100vh;
 }
 
+body {
+  margin: 0;
+}
+
 body,
 #root,
 .layout {
   min-height: 100vh;
-  // background-image: url('http://4.bp.blogspot.com/-aDYR_zBdOIc/UYm4fgpZKVI/AAAAAAAAA8k/9B90A-QEb3A/s1600/upload2.png');
-  // background-position: top;
-  // background-repeat: no-repeat;
-  // background-size: contain;
+}
+
+.layout {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
+.layout.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('http://images6.fanpop.com/image/photos/33900000/The-Nightmare-Before-Christmas-nightmare-before-christmas-33915570-500-375.jpg');
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.layout.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('http://orig04.deviantart.net/ede3/f/2008/146/4/2/sweeney_todd__by_mowri.jpg');
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.layout.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('https://maryanna77.files.wordpress.com/2011/01/t2.jpg');
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.layout.locations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/e3/05/46/e3054642bcbd2b11553da4d8d5b53c1f.jpg');
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+
 .logo {
-  padding-top: 9em;
+  padding-top: 6em;
   padding-left: 3em;
   width: 425px;
   height: 150px;
@@ -32,27 +81,30 @@ main {
   margin: 1em auto;
   padding: 1em;
   flex: 1;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
 }
 
 nav.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+
   ul {
-    padding-left: 200px;
-    padding-right: 200px;
-    width: 100%;
-    margin-bottom: 10px;
-    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    text-align: right;
     font-size: 12px;
     display: flex;
+    justify-content: right;
     background-color: black;
     background-position: top;
     list-style: none;
-    margin: -1em;
     font-family: 'Josefin Sans', sans-serif;
   }
 
   li {
-    margin: 1em;
-    margin-top: 2em;
+    padding: 1em;
     justify-content: center;
   }
 
@@ -64,21 +116,21 @@ nav.navbar {
 }
 
 h2 {
-  margin: 40px 40px;
+  margin: 0;
   font-family: 'Josefin Sans', sans-serif;
-  padding-top: .5em;
+  padding-top: -2em;
   text-align: right;
   color: hsla(281, 100%, 37%, 1);
   margin-top: 25%;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bolder;
 
   .about {
     p {
-      margin: 40px;
-      font-size: 12px;
+      margin: 0;
+      font-size: 10px;
       font-stretch: expanded;
       color: hsla(360, 0%, 7%, 0.97);
-      letter-spacing: 0.1em;
       overflow: scroll;
     }
   }

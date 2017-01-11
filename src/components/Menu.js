@@ -14,7 +14,7 @@ class Menu extends Component {
       </li>
     })
 
-    return <div>
+    return <div className='menu'>
       <h2>Our Menu</h2>
       <section className='categories'>
         <ul>

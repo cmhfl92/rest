@@ -26,7 +26,7 @@ class Contacts extends Component {
         </p>
       </form>
       <p>You can also email us at
-      <a href='mailto:BurtonsBar@gmail.com'>BurtonsBar@gmail.com</a></p>
+      <a href='mailto:BurtonsBar@gmail.com'> BurtonsBar@gmail.com</a></p>
     </div>
   }
 }

@@ -7,8 +7,16 @@ class Layout extends Component {
     children: React.PropTypes.element.isRequired
   }
 
+  layoutClassName () {
+    if (this.props.location.pathname === '/') {
+      return 'home'
+    } else {
+      return this.props.location.pathname.split('/').join(' ')
+    }
+  }
+
   render () {
-    return <div className='layout'>
+    return <div className={`layout ${this.layoutClassName()}`}>
 
       {/* <h1>Burton's Bar</h1> */}
       <nav className='navbar'>
@@ -26,7 +34,7 @@ class Layout extends Component {
             <Link to='/contacts'>Contact</Link>
           </li>
           <li>
-            <Link to='/Locations'>Locations</Link>
+            <Link to='/locations'>Locations</Link>
           </li>
         </ul>
       </nav>
